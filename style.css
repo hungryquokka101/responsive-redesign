@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden !important;
+}
+h2, h4 {
+    color: #0847A6;
+    text-align: center;
+    font-weight: bold;
+}
+
+a:link {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #00008B;
+}
+
+.btn2:hover {
+    background-color: #8A00C2 !important;
+}
+
+.scroll {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: .78rem
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: .87rem
+    }
+}
